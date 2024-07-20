@@ -1,0 +1,5 @@
+20240720	14:44:52	cabd4c82-a788-4fb9-90a6-9f398e55d960	GET	undefined	/
+20240720	14:45:11	17bed81c-ec7f-401f-8716-a0b49683ac5a	GET	undefined	/
+20240720	14:45:11	c36040b4-9443-4e3a-b7f7-a02bc00b79a9	GET	undefined	/css/style.css
+20240720	14:48:27	73b475c8-334f-4787-97fd-63b6ba1164b9	GET	undefined	/asdasd
+20240720	14:48:27	d996a262-e0d4-4190-9923-d3e9f79b4eae	GET	undefined	/css/style.css
