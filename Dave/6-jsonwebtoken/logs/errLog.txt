@@ -1,1 +1,4 @@
 20240720	14:44:52	51d4d549-9e95-4491-95e0-586964a5efd8	Error: Not allowed by CORS
+20240723	13:21:27	b7e3fb09-f2f6-4f39-ab26-c8cbcf30334d	TypeError: res.sendStaus is not a function
+20240723	13:22:43	8a5d4c0b-da7f-4b2d-8fa0-68f4a250742a	TypeError: res.sendStaus is not a function
+20240723	13:23:33	705adb86-b644-40a5-bbd5-4e99c00ab1cc	TypeError: res.sendStaus is not a function

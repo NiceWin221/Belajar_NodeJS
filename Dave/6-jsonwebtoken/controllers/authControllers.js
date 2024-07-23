@@ -23,7 +23,7 @@ const handleLogin = async (req, res) => {
   if (match) {
     // JWT
     const accessToken = jwt.sign({ username: foundUser.username }, process.env.ACCESS_TOKEN_SECRET, { expiresIn: "30s" });
-    const refreshToken = jwt.sign({ username: foundUser.username }, process.env.ACCESS_TOKEN_SECRET, { expiresIn: "1d" });
+    const refreshToken = jwt.sign({ username: foundUser.username }, process.env.REFRESH_TOKEN_SECRET, { expiresIn: "1d" });
     const otherUsers = userDB.users.filter((person) => person.username !== foundUser.username);
     const currentUsers = { ...foundUser, refreshToken };
     userDB.setUsers([...otherUsers, currentUsers])
@@ -31,7 +31,7 @@ const handleLogin = async (req, res) => {
       path.join(__dirname, "..", "model", "users.json"),
       JSON.stringify(userDB.users)
     )
-    res.cookie("jwt", refreshToken, {httpOnly: true, maxAge: 24 * 60 * 60 * 1000})
+    res.cookie("jwt", refreshToken, {httpOnly: true, sameSite: "none", secure: true, maxAge: 24 * 60 * 60 * 1000})
     res.json({accessToken});
   } else {
     res.sendStatus(401); // Unauthorized
