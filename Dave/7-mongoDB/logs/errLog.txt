@@ -1,0 +1,13 @@
+20240720	14:44:52	51d4d549-9e95-4491-95e0-586964a5efd8	Error: Not allowed by CORS
+20240723	13:21:27	b7e3fb09-f2f6-4f39-ab26-c8cbcf30334d	TypeError: res.sendStaus is not a function
+20240723	13:22:43	8a5d4c0b-da7f-4b2d-8fa0-68f4a250742a	TypeError: res.sendStaus is not a function
+20240723	13:23:33	705adb86-b644-40a5-bbd5-4e99c00ab1cc	TypeError: res.sendStaus is not a function
+20240723	22:55:03	8b42ff57-d4c3-4a36-b02d-cce92d622d02	TypeError: res.sendStaus is not a function
+20240723	22:57:10	b49d45e9-db78-4d56-acd2-b8a1ec3b383c	TypeError: res.sendStaus is not a function
+20240723	23:55:24	6ef25a30-04ed-476a-ac24-93bd9a2ca16d	TypeError: res.sendStaus is not a function
+20240723	23:56:37	d7d498d5-e09b-4983-93c0-a1a79e309357	TypeError: res.sendStaus is not a function
+20240723	23:58:04	7badcc4d-ac69-44e4-91cb-a80a27a647ba	TypeError: authHeaders?.startWith is not a function
+20240723	23:59:50	2feac0f0-1920-4716-8e98-97499bdcb518	TypeError: authHeader?.startWith is not a function
+20240723	23:59:55	8505cae1-a00b-4558-8fd1-cd4c66dc71dc	TypeError: authHeader?.startWith is not a function
+20240724	00:00:19	f5bd199c-6712-4617-abe9-75410c2e35cc	TypeError: authHeader?.startWith is not a function
+20240724	00:11:28	3f65677c-4194-4364-b86c-5423ada0bb73	TypeError: res.sendStaus is not a function
